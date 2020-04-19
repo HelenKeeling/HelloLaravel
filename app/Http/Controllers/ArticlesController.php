@@ -10,7 +10,7 @@ class ArticlesController extends Controller
     {
         $articles = Article::latest()->get();
 
-        return view('articles.index', ['article' => $articles]);
+        return view('articles.index', ['articles' => $articles]);
     }
 
     public function show($id) 
