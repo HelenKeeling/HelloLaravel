@@ -11,15 +11,8 @@ class PostsController extends Controller
 {
     public function show($slug)
     {
-    
-     $post = Post::where('slug', $slug)->firstOrfail();
-     
-        if (! $post) {
-            abort(404);
-        }
-
         return view('post', [
-            'post' => $post
+            'post' => Post::where('slug', $slug)->firstOrfail()
         ]);
     }
 }
