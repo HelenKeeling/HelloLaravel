@@ -13,17 +13,15 @@ Released   : 20140225
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
+<title>Laravel Blog</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link href="/css/default.css" rel="stylesheet"/>
 <link href="/css/fonts.css" rel="stylesheet"/>
-
 </head>
 <body>
 <div id="header-wrapper">
-
 	<div id="header" class="container">
 		<div id="logo">
 			<h1><a href="/">Laravel Blog</a></h1>
@@ -41,10 +39,8 @@ Released   : 20140225
 	@yield('header')
 </div>
 @yield('content')
-
 <div id="copyright" class="container">
 	<p>&copy; Untitled. All rights reserved.| Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
-
 </body>
 </html>
