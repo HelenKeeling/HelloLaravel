@@ -453,7 +453,7 @@ ul.contact li a.icon-rss:before
 {
 	display: inline-block;
 	margin-left: 1px;
-	padding: 1em 1.5em 1em 1.5em;
+	padding: 10px;
 	letter-spacing: 0.10em;
 	text-decoration: none;
 	font-size: 1em;
@@ -608,7 +608,8 @@ ul.contact li a.icon-rss:before
 {
 	overflow: hidden;
 	padding: 6em 0em 10em 0em;
-	border-top: 1px solid rgba(255,255,255,0.08);
+	border-top: 1px solid 2b2b2b;
+	background-color: #2b2b2b;
 }
 
 #copyright p
@@ -624,6 +625,11 @@ ul.contact li a.icon-rss:before
 {
 	text-decoration: none;
 	color: rgba(255,255,255,0.6);
+}
+
+#copyright.container
+{
+	background-color: #2b2b2b;
 }
 
 /*********************************************************************************/
